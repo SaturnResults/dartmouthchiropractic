@@ -226,8 +226,8 @@ footer{padding:80px 0 0}
 .demo-body > p{font-size:16.5px}
 .demo-from{display:flex;align-items:center;gap:14px;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:10px 16px 10px 10px;margin:22px 0 0}
 .demo-avs{display:flex;flex:none}
-.demo-avs img,.demo-avs span{width:56px;height:56px;border-radius:14px;object-fit:cover;border:3px solid var(--paper)}
-.demo-avs span{margin-left:-14px;display:grid;place-items:center;font-weight:600;font-size:22px;color:#fff;background:linear-gradient(140deg,#c2185b,#35288c)}
+.demo-avs img{width:56px;height:56px;border-radius:14px;object-fit:cover;border:3px solid var(--paper)}
+.demo-avs img+img{margin-left:-14px}
 .demo-from b{display:block;color:var(--ink);font-size:15px;font-weight:600;line-height:1.3}
 .demo-from small{display:block;font-size:13px;line-height:1.4;color:var(--mid)}
 .demo-list{list-style:none;margin:20px 0 26px;display:grid;gap:10px}
@@ -601,7 +601,7 @@ footer{padding:80px 0 0}
       <h2 id="demoTitle">A first look at <span class="serif">your new website.</span></h2>
       <p>Hi Martin, we're Harry and Giulio from Saturn Results. We've designed this preview to give you a real feel for how we'd bring Dartmouth Chiropractic &amp; Wellness Centre online, including a refreshed, modern logo. Have a good look around, scroll through everything and try it on your phone too.</p>
       <div class="demo-from">
-        <span class="demo-avs"><img src="assets/harry-face.jpg" alt="Harry"><span aria-hidden="true">G</span></span>
+        <span class="demo-avs"><img src="assets/harry-face.jpg" alt="Harry"><img src="assets/giulio-face.jpg" alt="Giulio"></span>
         <div><b>Made by Harry &amp; Giulio</b><small>Saturn Results · Web design &amp; development</small></div>
       </div>
       <ul class="demo-list">
